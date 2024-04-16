@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bd {
+  border: 0.1px solid black;
+  border-radius: 3px;
+}
+.dark .bd {
+  border: 0.1px solid white;
+  border-radius: 3px;
+}
+
+html {
+  margin-right: calc(100% - 100vw);
+  overflow-x: hidden;
+  height: 100%;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  display: contents;
+}
